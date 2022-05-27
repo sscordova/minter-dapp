@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Uainer";
-const description = "Ssc on the field";
+const namePrefix = "Cambiaso";
+const description = "Ossssasssssssoooo";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -38,7 +38,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://uain.tech", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://uain.techer", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -49,8 +49,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Uainer';
-const CONTRACT_SYMBOL = 'UINR';
+const CONTRACT_NAME = 'Uainero';
+const CONTRACT_SYMBOL = 'UINRR';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x64d05C6c5E6d5e5754c03F1ead0BEC85475f0b12';
 const TREASURY_ADDRESS = '0x64d05C6c5E6d5e5754c03F1ead0BEC85475f0b12';
@@ -75,7 +75,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "watch out....."; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "watch out...."; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
